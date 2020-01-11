@@ -1,0 +1,43 @@
+.kakuro
+  display: flex
+  align-items: flex-end
+.kakuro-field
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.grid
+  display: flex
+  flex-direction: column
+  .row
+    display: flex
+.vertical
+  flex-direction: row-reverse !important
+  .row
+    flex-direction: column
+.cell
+  width : 18px
+  height : 18px
+  vertical-align: center
+  text-align: center
+  border: 1px solid black
+.empty
+  background: white
+.crossed
+  background: red
+.picked
+  background: black
+.marked
+  background: yellow
+.tools-list
+  height : 50px
+  align-self: stretch
+  margin: 10%
+  background: red
+  display: flex
+  align-content: stretch
+  align-items: center
+  justify-content: center
+  .tool
+    flex-grow: 1
+    text-align: center
